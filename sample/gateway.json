@@ -1,0 +1,36 @@
+{
+    "loaders": [
+        {
+            "type": "node",
+            "name": "node"
+        }
+    ],
+    "modules": [
+        {
+            "name": "node_sensor",
+            "loader": {
+                "name": "node",
+                "entrypoint": {
+                    "main.path": "./modules/sensor.js"
+                }
+            },
+            "args": null
+        },
+        {
+            "name": "node_socketio",
+            "loader": {
+                "name": "node",
+                "entrypoint": {
+                    "main.path": "../socketio.js"
+                }
+            },
+            "args": null
+        }
+    ],
+    "links": [
+        {
+            "source": "node_sensor",
+            "sink": "node_socketio"
+        }
+    ]
+}

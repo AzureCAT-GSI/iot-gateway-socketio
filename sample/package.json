@@ -1,0 +1,21 @@
+{
+  "name": "iot-gateway-socketio-sample",
+  "version": "1.0.0",
+  "description": "Demonstrates the socketio module running on the Azure IoT Gateway.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Azure-Samples/azure-iot-gateway-sample"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Steven Follis",
+  "license": "MIT",
+  "dependencies": {
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "azure-iot-gateway": "~1.0.0"
+  }
+}
