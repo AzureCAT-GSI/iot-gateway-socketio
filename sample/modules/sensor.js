@@ -1,5 +1,7 @@
 // https://github.com/Azure-Samples/azure-iot-gateway-samples/blob/master/js/modules/sensor.js
 
+'use strict';
+
 module.exports = {
     broker: null,
     configuration: null,
@@ -49,7 +51,7 @@ module.exports = {
         return Math.floor(Math.random() * (max - min) + min);
     },
 
-    receive: function (message) {
+    receive: function () {
     },
 
     destroy: function () {

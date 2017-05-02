@@ -1,0 +1,29 @@
+{
+  "name": "iot-gateway-socketio",
+  "version": "0.0.1",
+  "description": "Socketio module for the Azure IoT Gateway",
+  "main": "socketio.js",
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenfollis/iot-gateway-socketio.git"
+  },
+  "keywords": [
+    "azure-iot-gateway",
+    "iot",
+    "batching",
+    "nodejs"
+  ],
+  "author": "Steven Follis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenfollis/iot-gateway-socketio/issues"
+  },
+  "homepage": "https://github.com/stevenfollis/iot-gateway-socketio#readme"
+}

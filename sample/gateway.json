@@ -7,11 +7,21 @@
     ],
     "modules": [
         {
+            "name": "node_printer",
+            "loader": {
+                "name": "node",
+                "entrypoint": {
+                    "main.path": "modules/printer.js"
+                }
+            },
+            "args": null
+        },
+        {
             "name": "node_sensor",
             "loader": {
                 "name": "node",
                 "entrypoint": {
-                    "main.path": "./modules/sensor.js"
+                    "main.path": "modules/sensor.js"
                 }
             },
             "args": null
@@ -21,7 +31,7 @@
             "loader": {
                 "name": "node",
                 "entrypoint": {
-                    "main.path": "../socketio.js"
+                    "main.path": "./node_modules/iot-gateway-socketio/socketio.js"
                 }
             },
             "args": null
