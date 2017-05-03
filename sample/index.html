@@ -111,8 +111,11 @@
     <script src="./node_modules/epoch-charting/dist/js/epoch.min.js"></script>
     <script>
         var chart;
+
+        // Change port from default 8000 if adjusted in server-side module args
         var socket = io('http://localhost:8000');
 
+        // Process message when received from server
         socket.on('message', function (data) {
 
             // Echo message to console
