@@ -1,5 +1,3 @@
-'use strict';
-
 const io = require('socket.io')();
 
 class SocketioModule {
