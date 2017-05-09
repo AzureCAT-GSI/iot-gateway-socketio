@@ -1,6 +1,6 @@
 {
   "name": "iot-gateway-socketio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Socketio module for the Azure IoT Gateway",
   "main": "socketio.js",
   "dependencies": {
