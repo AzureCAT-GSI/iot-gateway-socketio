@@ -25,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/stevenfollis/iot-gateway-socketio/issues"
   },
-  "homepage": "https://github.com/stevenfollis/iot-gateway-socketio#readme"
+  "homepage": "https://github.com/stevenfollis/iot-gateway-socketio#readme",
+  "readme": "README.md"
 }
